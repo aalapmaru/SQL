@@ -1,0 +1,10 @@
+SELECT DISTINCT CITY FROM STATION WHERE CITY REGEXP '^[AEIOU]' ;
+
+
+
+
+
+-------------------------------------------------------SOLUTION 2---------------------------------------------------------------------------
+Select DISTINCT City from Station
+where 
+(City LIKE'a%' or  City LIKE 'e%' or City LIKE 'i%' or City LIKE 'o%' or City LIKE 'u%' );
