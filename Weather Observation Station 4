@@ -1,0 +1,1 @@
+Select COUNT(City) - COUNT(Distinct City) AS N from Station;
