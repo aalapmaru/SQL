@@ -1,0 +1,2 @@
+Select City from Station
+where City REGEXP '^[aeiou].*[aeiou]$';
